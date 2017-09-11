@@ -11,9 +11,8 @@ public:
 	TcpServer(void);
 	~TcpServer(void);
 
-
 	int ServerFunction( char *hname, char *sname, int num_threads );
-	static DWORD WINAPI ThreadFunction( LPVOID t );
-
+	static DWORD WINAPI ThreadExecute( LPVOID t );
+	inline int ThreadRun( void );
 };
 
