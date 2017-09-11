@@ -1,0 +1,2 @@
+﻿  TcpServer.cpp
+c:\users\yaroslav khutornoy\documents\visual studio 2012\projects\sockets\sockets\tcpserver.cpp(34): error C3867: TcpServer::ThreadFunction: в вызове функции отсутствует список аргументов; используйте "&TcpServer::ThreadFunction" для создания указателя на член
